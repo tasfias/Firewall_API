@@ -5,8 +5,6 @@
 #include <ctype.h>
 #include <pthread.h>
 
-/* To be written. This file needs to be sumitted to canvas */
-
 pthread_rwlock_t lock = PTHREAD_RWLOCK_INITIALIZER;
 
 struct list{
